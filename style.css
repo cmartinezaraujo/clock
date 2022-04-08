@@ -1,0 +1,65 @@
+/* Your Awesome Styling Goes Here */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;700&family=Poppins:wght@300;700&display=swap');
+
+:root{
+  --text-main: #ffffff;
+  --accent: #0f62fe;
+}
+
+body {  
+  /* Horizontal and Vertical Center */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  
+  /* Extend full height of browser  */
+  height: 100vh;
+  background: #161616;
+  
+  /* Load Background Images with JS. Style with CSS */ 
+}
+
+time{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-left: 1em solid var(--accent);
+  padding-left: 1em;
+  font-family: "IBM Plex Mono", Times, serif;
+}
+
+.time {
+  font-size: 10em;
+  color: var(--text-main);
+}
+
+.date{
+  font-weight: 300;
+  font-size: 8em;
+  color: var(--text-main);
+}
+
+.hours {
+}
+
+.minutes {
+}
+
+.seconds {
+}
+
+.amOrPM {}
+
+.month {
+}
+
+.dayOfMonth {
+}
+
+.year {
+}
+
+.dayOfWeek {
+}
